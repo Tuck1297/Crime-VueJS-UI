@@ -2,7 +2,9 @@
 
 ## St. Paul Crime VueJS User Interface
 
-This repository holds the user interface that interacts with a RESTful-API located in [this]() repository. It is focused on displaying a user interface that displays the crime data retrieved by the RESTful-API in the browser so it is easier to organize, categorize and filter through the crime information. The main technologies used are the following: 
+See it in action online by clicking [here](https://tuck1297.github.io/Vue-Single-Page-St.-Paul-Crime/)!!!
+
+This repository holds the user interface that interacts with a RESTful-API located in [this](https://github.com/tuck1297/crime-restful-api) repository. It is focused on displaying a user interface that displays the crime data retrieved by the RESTful-API in the browser so it is easier to organize, categorize and filter through the crime information. The main technologies used are the following: 
 
 - Vue.js - Derived from AngularJS, it is a performant and versatile framework for building web user interfaces
 - jQuery - Free and open source library designed to simplify HTML DOM tree traversal and manipulation
@@ -46,7 +48,7 @@ The following is a brief list of what was implemented while creating this user i
 
 To use this project you will need to do the following: 
 
-1. Clone and load the St. Paul Crime Restful-API into your Integrated development environment (IDE) from [this]() repo
+1. Clone and load the St. Paul Crime Restful-API into your Integrated development environment (IDE) from [this](https://github.com/tuck1297/crime-restful-api) repo
 1. Clone this project into your IDE
 2. Navigate to the file directory that holds this project in your IDE
 3. Install project dependencies by typing the following in the terminal: 
