@@ -1,0 +1,28 @@
+{
+  "name": "stpaul-crime",
+  "version": "1.0.0",
+  "description": "Single Page Application",
+  "author": {
+    "name": "Tucker Johnson",
+    "email": "tucker.11@netzero.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tuck1297/Crime-VueJS-UI.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
+    "@turf/turf": "^6.5.0",
+    "jquery": "^3.6.1",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.4"
+  }
+}
