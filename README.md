@@ -4,18 +4,13 @@
 
 See it in action online by clicking [here](https://tuck1297.github.io/Vue-Single-Page-St.-Paul-Crime/)!!!
 
-This repository holds the user interface that interacts with a RESTful-API located in [this](https://github.com/tuck1297/crime-restful-api) repository. It is focused on displaying a user interface that displays the crime data retrieved by the RESTful-API in the browser so it is easier to organize, categorize and filter through the crime information. The main technologies used are the following: 
-
-- Vue.js - Derived from AngularJS, it is a performant and versatile framework for building web user interfaces
-- jQuery - Free and open source library designed to simplify HTML DOM tree traversal and manipulation
-- leaflet.js - Open source library used to build web mapping applications
-- Foundation - Free and open source responsive front-end framework, providing a responsive grid and HTML/CSS UI
-- Nominatim - Otherwise referred to as OpenStreetMap it is a collaborative project to create a free editable database of the world
-- Splide - lightweight, flexible, and accessible slider/carousel written in Typescript
-- Turf - Library that is used for advanced geospacial analysis
-- SQLite 3 - Database engine written in the C programming language 
+This repository holds the user interface that interacts with a RESTful-API located in [this](https://github.com/tuck1297/crime-restful-api) repository. It is focused on displaying a user interface that displays the crime data retrieved by the RESTful-API in the browser so it is easier to organize, categorize and filter through the crime information.
 
 In this application there are two ways to visualize the data. There is either on the map or in the table below. The table below displays more specific information about each crime incident whereas the map allows a more generalization of all the crimes displayed in the table. Crimes will appear in the table below only if its cooresponding neighborhood marker is visible in the map above. There are many possibilities of data one can search with this tool. 
+
+---
+
+### Brief Project overview
 
 The following is a brief list of what was implemented while creating this user interface: 
 
@@ -44,6 +39,8 @@ The following is a brief list of what was implemented while creating this user i
     - 3. time range
     - 4. max incidents
 
+---
+
 # Plug and Play
 
 To use this project you will need to do the following: 
@@ -57,3 +54,25 @@ To use this project you will need to do the following:
 ``` npm run dev -- --port 5500 ```
 5. Navigate to your browser and type the following: 
 ``` http://localhost:5500/ ```
+
+NOTE: These instructions involve running two separate projects locally at the same time. The Restful API is programmed to run on port 8000 so this is why port 5500 is chosen in the instructions above.
+
+---
+
+## Languages and Tools Used
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="60" height="60"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="60" height="60"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="60" height="60"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="60"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="Github" **alt="Github" width="60" height="60"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-original-wordmark.svg" title="jQuery" **alt="jQuery" width="60" height="60"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="vscode" **alt="vscode" width="60" height="60"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg" title="Vue" **alt="Vue" width="60" height="60"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/gimp/gimp-original-wordmark.svg" title="Gimp" **alt="Gimp" width="60" height="60"/>
+  <img src="https://camo.githubusercontent.com/efe5825f7b954f1bdfea52541875c2d3c05da61c645a59d4b08c03e1ff6fbc4c/68747470733a2f2f7261776769742e636f6d2f4c6561666c65742f4c6561666c65742f6d61696e2f7372632f696d616765732f6c6f676f2e737667" title="Leaflet" **alt="Leaflet" height="60"/>
+    <img src="https://github.com/Tuck1297/Crime-VueJS-UI/blob/main/images/splide.png" title="Splide" **alt="Splide" height="60"/>
+    <img src="https://github.com/Tuck1297/Crime-VueJS-UI/blob/main/images/foundation.svg" title="Foundation" **alt="Foundation" width="60" height="60"/>
+    <img src="https://github.com/Tuck1297/Crime-VueJS-UI/blob/main/images/nominatim.png" title="Nominatim" **alt="Nominatim" width="60" height="60"/>
+    <img src="https://github.com/Tuck1297/Crime-VueJS-UI/blob/main/images/turf.jpg" title="Turf" **alt="Turf" width="60" height="60"/>
+</div>
